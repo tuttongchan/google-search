@@ -8,7 +8,7 @@ export const Navbar = ({ darkTheme, setDarkTheme }) => {
     <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200 ">
       <div className="flex justify-between items-center space-x-5 w-screen">
         <Link to="/">
-          <p className="text-3xl font-bold text-black py-1 px-2 rounded dark:bg-gray-50 dark:text-gray-900">
+          <p className="text-3xl font-bold text-black py-1 px-2 rounded dark:text-white">
             Moggle🧐
           </p>
         </Link>

@@ -5,7 +5,7 @@ import { useStateContext } from '../contexts/StateContextProvider';
 import { Links } from './Links';
 
 export const Search = () => {
-  const [text, setText] = useState('Elon Musk');
+  const [text, setText] = useState('');
   const { setSearchTerm } = useStateContext();
 
   // debouncedValue used for api request every 300ms instead of firing off each character
